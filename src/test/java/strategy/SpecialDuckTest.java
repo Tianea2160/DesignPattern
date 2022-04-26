@@ -4,6 +4,9 @@ import org.junit.jupiter.api.Test;
 import strategy.fly.SlowFly;
 import strategy.quack.LoudQuack;
 
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 /*
 전략 패턴을 사용한 구현
 전략 패턴을 왜 사용해야하는가?

@@ -4,9 +4,6 @@ import strategy.fly.FlyBehavior;
 import strategy.quack.QuackBehavior;
 
 
-
-
-
 public abstract class Duck {
     // 잘 변하는 기능들
     // 인터페이스를 기능을 구현하고 상위 클래스의 필드로 넣음으로써 기능을 위임한다.
