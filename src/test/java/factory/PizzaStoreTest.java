@@ -1,11 +1,11 @@
 package factory;
 
-import factory.pizza.Pizza;
-import factory.store.AAPizzaStore;
-import factory.store.BBPizzaStore;
+import factory.ver1.PizzaStore;
+import factory.ver1.pizza.Pizza;
+import factory.ver1.store.AAPizzaStore;
+import factory.ver1.store.BBPizzaStore;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 /*
 객체를 생성할 때 필요한 인터페이스를 만든다.
 어떤 클래스의 인스턴스를 만들지는 서브 클래스에서 결정한다.

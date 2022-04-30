@@ -1,7 +1,10 @@
-package factory.store;
+package factory.ver1.store;
 
-import factory.PizzaStore;
-import factory.pizza.*;
+import factory.ver1.PizzaStore;
+import factory.ver1.pizza.CheesePizza;
+import factory.ver1.pizza.ClamPizza;
+import factory.ver1.pizza.Pizza;
+import factory.ver1.pizza.StrangePizza;
 
 public class CCPizzaStore extends PizzaStore {
     @Override

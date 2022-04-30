@@ -1,9 +1,9 @@
-package factory;
+package factory.ver1;
 
-import factory.pizza.CheesePizza;
-import factory.pizza.ClamPizza;
-import factory.pizza.Pizza;
-import factory.pizza.StrangePizza;
+import factory.ver1.pizza.CheesePizza;
+import factory.ver1.pizza.ClamPizza;
+import factory.ver1.pizza.Pizza;
+import factory.ver1.pizza.StrangePizza;
 
 public class PizzaFactory {
     public Pizza createPizza(String type){

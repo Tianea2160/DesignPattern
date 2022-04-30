@@ -1,6 +1,6 @@
-package factory.pizza;
+package factory.ver1.pizza;
 
-public class CheesePizza implements Pizza{
+public class ClamPizza implements Pizza{
     @Override
     public void prepare() {
         System.out.println("prepare");
